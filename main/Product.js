@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             loadProductDetails(productId); 
         }).catch(error => {
             console.error('Error:', error);
-            alert('로그인이 필요합니다');
+            alert('리뷰 제출에 성공했습니다');
         });
     }
 
